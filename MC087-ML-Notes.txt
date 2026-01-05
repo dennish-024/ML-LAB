@@ -1,0 +1,71 @@
+Random State:
+
+The random_state parameter is a seed value used by the random number generator. It ensures that the data splitting process is reproducible. When you set a specific value for random_state, you guarantee that the same data points will be included in the training and testing sets every time you run the code.
+
+Confusion Matrix:
+
+Confusion Matrix is a table that compares the model's predictions against the actual values. It highlights where the model succeeds and where it makes mistakes.
+
+Confusion matrix is a simple table used to measure how well a classification model is performing. It compares the predictions made by the model with the actual results and shows where the model was right or wrong. This helps you understand where the model is making mistakes so you can improve it.
+
+Classification Report:
+
+The Classification Report summarizes the performance of a classification model. It includes key metrics such as:
+
+Precision : Measures the accuracy of positive predictions.
+Recall : Indicates how many actual positives were correctly identified.
+F1-Score : Balances precision and recall into a single score.
+Support : Shows the number of samples for each class.
+
+-----------------------------------------------------------------------------------------
+18/11/25
+DISTRIBUTIONS
+
+Probability Distribution is a mathematical function that describes the livelihood of different outcomes in a random event.
+
+Normal Distribution is also known as Gaussian distribution. It is a symmetric bell shaped curve. This is used to represent real-valued random numbers.
+
+Uniform Distribution represents constant probability over specified range.
+The no. of successes in a fixed number of independent Bernoulli trials.
+
+Poisson Distribution is number of event happening in a fix interval of time or space
+
+Exponential distribution this models the time between the events in a poisson process. This will be a part of queueing theory.
+y= stats.norm.pdf(x,0,1)
+
+scipy.stats.norm.pdf() is a function in SciPy that computes the probability density function (PDF) of a normal (Gaussian) distribution at a given value x. This function is part of SciPys stats module where loc represents the mean () and scale is the standard deviation ().
+Parameters
+
+Below are the parameters of the scipy.stats.norm.pdf() function −
+
+x: The value at which the PDF is evaluated.
+loc (optional): The mean () of the normal distribution. Default value is 0.
+scale (optional): The standard deviation () of the normal distribution. Default value is 1.
+
+
+x= np.linspace(-5,5,100)
+
+The Numpy linspace() function is used to return a array of evenly spaced values over a specified interval. This functions takes in parameters such as start, stop, and num, and returns an array with a number of equally spaced values between start and stop. It is similar to numpy.arange() function but instead of a step, it uses a sample number.
+
+-----------------------------------------------------------------------------------------------
+25-11-2025
+
+Bayes theorem formula
+
+https://en.wikipedia.org/wiki/Bayes%27_theorem
+
+------------------------------------------------------------------------------------------------
+23-12-2025
+
+texts = [
+    "The match was exciting and the team played well",  # Sports
+    "The government passed a new law today",            # Politics
+    "The new smartphone has amazing features",          # Technology
+    "The actor won an award for best performance",      # Entertainment
+    "The player scored a hat-trick in the game",        # Sports
+    "The parliament discussed the budget proposal",     # Politics
+    "The software update improves battery life",        # Technology
+    "The movie received great reviews from critics"     # Entertainment
+]
+
+------------------------------------------------------------------------------------------------
